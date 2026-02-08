@@ -1,60 +1,84 @@
 # Sales Data Visualization Dashboard
 
-This project analyzes real-world retail sales data to uncover trends, regional performance, category-level insights, and profitability patterns.  
-It is designed as a **portfolio project for Data Analyst / BI roles**.
+## 📌 Project Overview
+This project focuses on **visualizing real-world retail sales data** to uncover trends, revenue drivers, and business insights through clear and impactful charts.
+
+It demonstrates strong skills in **data analysis, visualization, and storytelling** using Python.
+
+Designed for:
+- Data Analyst
+- Business Intelligence (BI)
+- Analytics roles
 
 ---
 
-## Dataset
-- **Source:** Sample Superstore dataset (CSV)
-- **Records:** ~10,000 sales transactions
-- **Key fields:** Order Date, Region, Category, Sub-Category, Sales, Profit, Discount
+## 🎯 Business Objective
+Businesses need quick insights into:
+- Sales trends over time
+- Regional performance
+- Product category profitability
+- Customer segments
+
+This project answers:
+- Which regions drive the most profit?
+- Which categories underperform?
+- How sales evolve over time?
 
 ---
 
-## Tools & Technologies
+## 📊 Dataset (REAL DATA)
+**Sample Superstore Dataset**
+
+### Dataset Details
+- ~10,000 sales records
+- Order, customer, region, and product details
+- Sales, profit, discount metrics
+
+This dataset is widely used in retail analytics and BI case studies.
+
+---
+
+## 📈 Visualizations Included
+- Sales & profit trends over time
+- Regional performance comparison
+- Category and sub-category analysis
+- Profit vs discount relationships
+- Customer segment contribution
+
+All visuals are **business-focused and decision-oriented**.
+
+---
+
+## 🔍 Key Insights
+- Certain categories generate high sales but low profit
+- Heavy discounts often reduce profitability
+- Regional performance varies significantly
+
+---
+
+## 🛠 Tools & Technologies
 - Python
 - Pandas, NumPy
 - Matplotlib, Seaborn
-- ydata-profiling (automated data profiling)
 - Jupyter Notebook
 
 ---
 
-## Analysis Workflow
-1. Loaded and validated the dataset
-2. Automated data profiling to assess data quality
-3. Data cleaning and feature engineering
-4. Exploratory Data Analysis (EDA)
-5. Sales, profit, and margin visualizations
-6. Business insight generation
+## ▶️ How to Run
+1. Open `sales_data_visualization.ipynb`
+2. Ensure `Sample - Superstore.csv` is in the same folder
+3. Run all cells
 
 ---
 
-## Key Insights
-- Sales exhibit seasonal patterns with month-to-month fluctuations.
-- West and East regions generate the highest revenue, but some regions show lower profit margins.
-- Technology leads in sales, while Furniture shows inconsistent profitability.
-- A small number of sub-categories drive a significant portion of revenue.
-- High sales do not always translate to high profit due to discounting.
+## ⭐ Why This Project Matters
+✔ Real retail dataset  
+✔ Clear business insights  
+✔ Strong visualization storytelling  
+✔ BI / analyst portfolio-ready  
 
 ---
 
-## Files in This Repository
-- `sales_data_visualization.ipynb` – Main analysis notebook
-- `superstore_profiling_report.html` – Automated data profiling report
-- `Sample - Superstore.csv` – Dataset
-
----
-
-## How to Run
-1. Clone the repository
-2. Install required libraries
-3. Open the notebook and run all cells
-
----
-
-## Future Enhancements
-- Discount vs profit impact analysis
-- Interactive dashboards (Power BI / Tableau)
-- Predictive sales modeling
+## 👤 Author
+**Bhargav Vanamala**  
+GitHub: https://github.com/bhargav-vanamala
